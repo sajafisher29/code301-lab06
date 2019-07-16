@@ -24,27 +24,27 @@ Start time: 9:30am
 
 Finish time: 11:30am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour
 
 Number and name of feature: #2 Weather
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 11:30am
 
-Finish time: _____
+Finish time: 12:30pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 mins
 
 Number and name of feature: #3 Errors
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 45 minutes
 
-Start time: _____
+Start time: 12:30pm
 
-Finish time: _____
+Finish time: 1:30pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 mins
 
 
 ## Code style
