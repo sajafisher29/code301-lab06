@@ -1,4 +1,4 @@
-# code301-lab06
+# code301-lab06-back-end
 Node, npm, and Express Repo Initiation (*to be updated) 
 
 ## Project title
