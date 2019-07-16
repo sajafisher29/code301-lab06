@@ -16,14 +16,36 @@ For this lab assignment, you will convert a location entered by the user into a 
 
 
 ## Build status
-We will be using the Trello project management tool for the duration of this project.
-To maximize your experience with Trello, you should create a free Trello account by clicking on the Sign Up button.
-After creating an account, go to the City Explorer Trello Board, open the “… Show Menu” link, click the “… More” link, and then click “Copy Board”. Before you create it, be sure to “Change” from Private to “Public” (and click “Yes, Make Board Public”) so your instructional team can see your work. Now, click “Create” to add a copy to your personal account.
-This Trello board contains all of the features required to complete this lab assignment.
-Also on the Settings tab, click the “Filter” link to view just the current day
-With your partner, review the user stories and analyze the feature requests and requirements in the lab.
-Within each story, note the acceptance criteria (“Given … When … Then…”) and the checklist of feature tasks. Be careful to execute tasks in order as they are often dependencies of one another.
-During the day with your partner, check off tasks as you complete them, and move the story cards through the workflow.
+Number and name of feature: #1 Locations
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 9:30am
+
+Finish time: 11:30am
+
+Actual time needed to complete: _____
+
+Number and name of feature: #2 Weather
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+Number and name of feature: #3 Errors
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
 
 ## Code style
 Code style is strict JavaScript. (standard)
