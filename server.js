@@ -15,15 +15,18 @@ function Weather(forecast, time) {
   this.time = time;
 }
 
+function checkError(req, res) { 
+  if (req.query.data !== 'Lynnwood') { 
+    res.status(500).send('Sorry, something went wrong');
+  }
+}
+
 app.get('/location', (req, res) => { 
   try { 
-    if (req.query.data === 'Lynnwood') {
-      const geoData = require('./data/geo.json');
-      const user_location = new Location(req.query.data, geoData);
-      res.send(user_location);
-    } else { 
-      res.status(500).send('Sorry, something went wrong');
-    }
+    checkError(req, res);
+    const geoData = require('./data/geo.json');
+    const user_location = new Location(req.query.data, geoData);
+    res.send(user_location);
   }
   catch (err) { 
     res.status(500).send('Sorry, something went wrong');
@@ -32,16 +35,13 @@ app.get('/location', (req, res) => {
 
 app.get('/weather', (req, res) => {
   try {
-    if (req.query.data === 'Lynnwood') {
-      const weatherArr = [];
-      const darkskyData = require('./data/darksky.json');
-      darkskyData.daily.data.forEach( day => {
-        weatherArr.push(new Weather(day.summary, new Date(day.time).toString()));
-      })
-      res.send(weatherArr);
-    } else { 
-      res.status(500).send('Sorry, something went wrong');
-    }  
+    checkError(req, res);
+    const weatherArr = [];
+    const darkskyData = require('./data/darksky.json');
+    darkskyData.daily.data.forEach( day => {
+      weatherArr.push(new Weather(day.summary, new Date(day.time*1000).toString()));
+    })
+    res.send(weatherArr);
   } 
   catch(err) { 
     res.status(500).send('Sorry, something went wrong');
