@@ -1,5 +1,5 @@
-# code301-lab06-back-end
-Node, npm, and Express Repo Initiation (*to be updated) 
+# code301-lab07-back-end
+API Initiation (*to be updated) 
 
 ## Project title
 
@@ -16,35 +16,45 @@ For this lab assignment, you will convert a location entered by the user into a 
 
 
 ## Build status
-Number and name of feature: #1 Locations
+Number and name of feature: #1 Data Formatting
 
-Estimate of time needed to complete: 2 hours
+Estimate of time needed to complete: 45 minutes
 
-Start time: 9:30am
+Start time: 9:45am
+
+Finish time: 10:30am
+
+Actual time needed to complete: 
+
+Number and name of feature: #2 Locations
+
+Estimate of time needed to complete: 45 minutes
+
+Start time: 10:45am
 
 Finish time: 11:30am
 
-Actual time needed to complete: 1 hour
+Actual time needed to complete: 
 
-Number and name of feature: #2 Weather
+Number and name of feature: #3 Weather
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 45 minutes
 
-Start time: 11:30am
+Start time: 11:45am
 
 Finish time: 12:30pm
 
-Actual time needed to complete: 30 mins
+Actual time needed to complete: 
 
-Number and name of feature: #3 Errors
+Number and name of feature: #4 Eventbrite
 
 Estimate of time needed to complete: 45 minutes
 
 Start time: 12:30pm
 
-Finish time: 1:30pm
+Finish time: 1:15pm
 
-Actual time needed to complete: 30 mins
+Actual time needed to complete: 
 
 
 ## Code style
@@ -67,7 +77,7 @@ No tests at this time.
 No contribution guidelines at this point. 
 
 ## Credits
-Quang Nguyen
+Gina Pultorak
 Sarah Fisher 
 https://meyerweb.com/eric/tools/css/reset/ CSS Reset Tool
 
